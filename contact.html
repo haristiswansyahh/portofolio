@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Portofolio</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Saya</a></li>
+                    <li><a href="gallery.html">Galeri</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="contact-section">
+        <h1>Kontak</h1>
+        <form id="contactForm">
+            <p class="error-message"></p> <!-- Untuk pesan error -->
+            <p class="success-message"></p> <!-- Untuk pesan sukses -->
+            <input id="name" type="text" placeholder="Nama Anda" required>
+            <input id="email" type="email" placeholder="Email Anda" required>
+            <textarea id="message" placeholder="Pesan Anda" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </main>
+</body>
+</html>
